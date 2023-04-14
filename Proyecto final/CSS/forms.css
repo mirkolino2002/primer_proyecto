@@ -146,3 +146,11 @@ form button{
     margin: 20px auto 0;
     border-radius: 30px;
 }
+
+textarea, input{
+    border-radius: 10px;
+    
+}
+textarea{
+    height: 150px;
+}

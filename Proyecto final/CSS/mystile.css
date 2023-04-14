@@ -17,37 +17,7 @@
     font-family: 'Raleway', sans-serif;
  }
 
-/*
-:root{
-    --red:#890404;
-    --black:#252a34;
 
- }
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
-body{
-    background: #fff;
-    overflow-x: hidden;
-    font-family: 'Raleway', sans-serif;
-}
-.go-top{
-    position: fixed;
-    bottom: 100px;
-    right: -100%;
-    width: 50px;
-    height: 50px;
-    background: #ffff;
-    border:2px solid var(--red);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    z-index: 1000;
-    transition: 0.5s;
-}
 /* Efecto para desviar abajo */
 
 .deslizar-abajo{
@@ -373,8 +343,6 @@ body{
 	cursor: pointer;
 	border-radius: 5px;
 }
-
-/*---------------------*/
 
 .contenedor-modal.active {
 	position: fixed;
