@@ -93,7 +93,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url(/IMG/aguila-con-paisaje_3840x2160_xtrafondos.com.jpg);
+    background: url(../IMG/aguila-con-paisaje_3840x2160_xtrafondos.com.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -224,6 +224,7 @@
     padding: 0px;
     outline: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 #news{
     text-align: center;
@@ -463,4 +464,67 @@
 } 
 .pie-pagina .grupo-2 small{
     font-size: 15px;
+}
+
+/* formulario */
+.container{
+    width: 100%;
+    height: 120vh;
+    background: #fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#mail{
+    opacity: 0;
+}
+form{
+    background: #232323;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 100%;
+    max-width: 1000px;
+    height: hidden;
+    border-radius: 10px;
+    
+}
+form h3{
+    color: #ffffff;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+form p{
+    color: #ffffff;
+
+}
+
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f6f5;
+    font-size: 16px;
+}
+
+form button{
+    padding: 15px;
+    background: #ff5361;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
+textarea, input{
+    border-radius: 10px;
+    
+}
+textarea{
+    height: 150px;
 }
