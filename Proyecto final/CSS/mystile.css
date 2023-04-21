@@ -238,7 +238,7 @@
 #imagenes{
     padding: auto;
     margin: 20px 20px 20px 20px;
-    width: 1030px;
+    width: 900px;
     height: 500px;
     position:static;
     border-radius: 230px;
@@ -266,12 +266,12 @@
     transform: scale(1.2,1,2)
 }
 .atras{
-    left: 4%;
+    left: 10%;
     top: calc(50% - 70px);
 
 }
 .adelante{
-    right: 4%;
+    right: 10%;
     top: calc(50% - 70px);
 }
 
@@ -323,7 +323,7 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background-image: linear-gradient(to top, #cfd9df96 0%, #e2ebf0a1 100%);
+	background-image: linear-gradient(to top, #581a1a96 0%, #581a1a96 100%);
 	width: 100%;
 	height: 0;
 	transition: 0.55s ease;
@@ -397,7 +397,11 @@
 .pie-pagina .grupo-1 .box .barra{
     display: flex;
     flex-direction: column;
-    margin: -55px
+
+}
+.pie-pagina .grupo-1 .box figure h2{
+    position: relative;
+    top: -75px;
 }
 .pie-pagina .grupo-1 .box .barra a{
     list-style-position: inside;
@@ -407,13 +411,17 @@
     flex-direction: column;
     text-decoration: none;
     color: #fff;
+    position: relative;
+    top: -125px;
 }
 .pie-pagina .grupo-1 .box h2{
     color: #fff;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     font-size: 20px;
-    
+    position: relative;
+    top: -10px;
 }
+
 .pie-pagina .grupo-1 .box p{
     color: #fff;
     margin-bottom: 10px;
@@ -423,6 +431,7 @@
 }
 .pie-pagina .grupo-1 .box .red-social #alineacion{
     text-align: center;
+
 }
 .pie-pagina .grupo-1 .box .red-social a{
     display: inline-block;
@@ -435,6 +444,8 @@
     border-radius: 15px;
     text-align: center;
     transition: all 300ms ease;
+    position: relative;
+    left: 45px;
 }
 .pie-pagina .grupo-1 .box .red-social a:hover{
     color:#08d9d6
@@ -451,6 +462,8 @@
     border-radius: 15px;
     text-align: center;
     transition: all 300ms ease;
+    position: relative;
+    left: 55px;
 }
 .pie-pagina .grupo-1 .box .form a:hover{
     color: #08d9d6
@@ -458,6 +471,7 @@
 
 .pie-pagina .grupo-2 {
     background-color: #3b0101;
+    margin-top: 25px;
     padding: 15px 10px;
     text-align: center;
     color: #fff;

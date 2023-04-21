@@ -51,3 +51,4 @@ document.querySelectorAll('.contenedor-modal'). forEach(
             this.classList.remove('active');
         });
     });
+
